@@ -135,3 +135,116 @@ body{
     }
 
 }
+
+@media (max-width: 500px){
+
+.img-fluid1{
+    position: absolute;
+    width: 18%;
+    filter: blur(1.1px) drop-shadow(1px 1px 1px #e4d82e ) drop-shadow(-1px -1px 1px #0058db);
+    left: 25%;
+    top: 45%;
+    animation: hover 20s linear infinite ; 
+}
+
+.img-fluid2{
+    position: absolute;
+    width: 8%;
+    filter: blur(0.8px) drop-shadow(2px 2px 3px #9400d3) drop-shadow(-2px -2px 3px #9400d3);
+    left: 75%;
+    top: 35%;
+    animation: hover 20s linear infinite ; 
+}
+
+.img-fluid3{
+    position: absolute;
+    width: 7%;
+    filter: blur(1.5px) drop-shadow(2px 2px 3px #9400d3) drop-shadow(-2px -2px 3px #9400d3);
+    left: 45%;
+    top: 75%;
+    animation: hover 20s linear infinite ; 
+}
+
+.img-fluid4{
+    position: absolute;
+    width: 19%;
+    filter: blur(1px) drop-shadow(1px 1px 1px #239a85 ) drop-shadow(-1px -1px 1px #239a85);
+    left: 68%;
+    top: 68%;
+    animation: hover 20s linear infinite ; 
+}
+
+.img-fluid5{
+    position: absolute;
+    width: 11%;
+    filter: blur(2px);
+    left: 35%;
+    top: 10%;
+    animation: hover 20s linear infinite ; 
+}
+
+.img-fluid6{
+    position: absolute;
+    width: 6%;
+    filter: blur(1px);
+    left: 50%;
+    top: 40%;
+    animation: hover 20s linear infinite ; 
+}
+
+.img-fluid7{
+    position: absolute;
+    width: 5%;
+    filter: blur(2px);
+    left: 5%;
+    top: 10%;
+    animation: hover 20s linear infinite ; 
+}
+
+.img-fluid8{
+    position: absolute;
+    width: 9%;
+    filter: blur(0.5px);
+    left: 5%;
+    top: 70%;
+    animation: hover 15s linear infinite ; 
+}
+
+.img-fluid9{
+    position: absolute;
+    width: 5%;
+    filter: blur(0.8px);
+    left: 7%;
+    top: 40%;
+    animation: hover 25s linear infinite ; 
+}
+
+.img-fluid10{
+    position: absolute;
+    width: 5%;
+    filter: blur(1.5px);
+    left: 88%;
+    top: 5;
+    animation: hover 15s linear infinite ; 
+}
+
+.img-fluid11{
+    position: absolute;
+    width: 9%;
+    filter: blur(0.5px);
+    left: 6%;
+    top: 41%;
+    animation: hover 15s linear infinite ; 
+}
+
+.img-fluid12{
+    position: absolute;
+    width: 20%;
+    filter: blur(0.5px) drop-shadow(4px 4px 2px #195e83) drop-shadow(-4px -4px 2px #195e83);
+    left: 84%;
+    top: 70%;
+    animation: hover 15s linear infinite ; 
+}
+
+
+}
