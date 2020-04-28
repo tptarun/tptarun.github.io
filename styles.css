@@ -126,7 +126,7 @@ body{
     }
     25%{
         transform: translateX(10px) translateY(30px);
-    
+    }
     75%{
         transform: translateX(-16px) translateY(-30px);
     }
