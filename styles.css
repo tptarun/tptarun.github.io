@@ -1,5 +1,7 @@
-.lgo {
-    color: blue 
+.lgo h1 {
+    color: whitesmoke ;
+    animation: neon 5s linear infinite ;
+    
 }
 
 body{
@@ -9,7 +11,7 @@ body{
 .img-fluid1{
     position: absolute;
     width: 7.5%;
-    filter: blur(1.1px);
+    filter: blur(1.1px) drop-shadow(1px 1px 1px #e4d82e ) drop-shadow(-1px -1px 1px #0058db);
     left: 25%;
     top: 45%;
     animation: hover 20s linear infinite ; 
@@ -27,7 +29,7 @@ body{
 .img-fluid3{
     position: absolute;
     width: 4%;
-    filter: blur(1.5px);
+    filter: blur(1.5px) drop-shadow(2px 2px 3px #9400d3) drop-shadow(-2px -2px 3px #9400d3);
     left: 45%;
     top: 75%;
     animation: hover 20s linear infinite ; 
@@ -36,7 +38,7 @@ body{
 .img-fluid4{
     position: absolute;
     width: 9%;
-    filter: blur(1px);
+    filter: blur(1px) drop-shadow(1px 1px 1px #239a85 ) drop-shadow(-1px -1px 1px #239a85);
     left: 68%;
     top: 68%;
     animation: hover 20s linear infinite ; 
@@ -45,7 +47,7 @@ body{
 .img-fluid5{
     position: absolute;
     width: 5%;
-    filter: blur(3px);
+    filter: blur(2px);
     left: 35%;
     top: 10%;
     animation: hover 20s linear infinite ; 
@@ -132,6 +134,18 @@ body{
     }
     100%{
         transform: translateX(0px) translateY(0px);
+    }
+
+}
+
+@keyframes neon {
+
+    0%{
+        text-shadow: 2px 2px 3px rgb(0,0,0);
+    }
+
+    100%{
+        text-shadow: 2px 2px 3px rgb(100, 100, 100);
     }
 
 }
