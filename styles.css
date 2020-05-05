@@ -793,7 +793,7 @@ body {
  }
  
  .txt {
-   position: absolute;
+   
    color: #fefefe;
    font-family: "Ubuntu";
    text-transform: uppercase;
@@ -803,9 +803,8 @@ body {
    font-weight: 300;
    text-rendering: optimizeLegibility;
    text-align: center;
-   display: block;
-   top: 10px;
-   left: 63px;
+   
+   
    
 }
  
@@ -951,4 +950,18 @@ body {
     top: 70%;
     animation: hover 15s linear infinite;
   }
+
+  .txt {
+   
+    color: #fefefe;
+    font-family: "Ubuntu";
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
+    line-height: 2;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    text-align: center;
+    
+ }
 }
