@@ -792,8 +792,8 @@ body {
            animation-delay: 0s;
  }
  
- body {
-   background-color: #1a1a1a;
+ .txt {
+   position: absolute;
    color: #fefefe;
    font-family: "Ubuntu";
    text-transform: uppercase;
@@ -803,31 +803,15 @@ body {
    font-weight: 300;
    text-rendering: optimizeLegibility;
    text-align: center;
- }
- 
- .container {
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   width: 100%;
-   -webkit-transform: translate(-50%, -50%);
-           transform: translate(-50%, -50%);
- }
- 
- .txt {
    display: block;
- }
+   top: 10px;
+   left: 63px;
+   
+}
  
- a {
-   text-decoration: none;
-   position: absolute;
-   bottom: 10px;
-   right: 10px;
-   text-align: right;
-   color: #eee;
-   font-size: 15px;
-   line-height: 15px;
- }
+ 
+ 
+
 
 @keyframes hover {
   0% {
