@@ -9,12 +9,11 @@ body {
 
 .img-fluid1 {
   position: absolute;
-  width: 7.5%;
-  filter: blur(1.1px) drop-shadow(1px 1px 1px #e4d82e)
-    drop-shadow(-1px -1px 1px #0058db);
+  width: 3.5%;
   left: 25%;
   top: 45%;
   animation: hover 20s linear infinite;
+  z-index: 1;
 }
 
 .img-fluid2 {
@@ -820,16 +819,22 @@ body {
 }
 
 .container{
-  height:100%;
+  height:80%;
   width:100%;
   justify-content:center;
-  align-items:center;
+  align-items: flex-start;
   display:flex;
+  flex-direction: column;
+  margin: 5%;
+  
 }
 .text{
+  margin-bottom: 1rem;
   font-weight:100;
-  font-size:28px;
+  font-size:48px;
   color:#fafafa;
+ 
+  
 }
 .dud{
   color:#757575;
@@ -837,7 +842,7 @@ body {
 .caption{
  
   font-weight:100;
-  font-size:28px;
+  font-size:48px;
   color:#fafafa;
 }
 
@@ -998,4 +1003,13 @@ body {
     text-align: center;
     
  }
+
+  /*caption*/
+
+  .text{
+    font-size: 28px;
+  }
+  .caption{
+    font-size: 22px;
+  }
 }
