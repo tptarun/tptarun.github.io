@@ -64,13 +64,13 @@ class TextScramble {
   
   
   const phrases = [
-  'Python Developer,',
+  'Python Developer',
   'Web Designer',
   'Video Editor',
   '3D Artist',
   'Game Developer',
   'Gamer🎮',
-  'Learner🙏'];
+  '& A Learner🙏'];
   
   
   const el = document.querySelector('.text');

@@ -4,44 +4,43 @@
 }
 
 body {
-  background-color: #181d22;
+  background: -webkit-radial-gradient(#333333 10px ,#181d22);
 }
 
 .img-fluid1 {
   position: absolute;
   width: 3.5%;
-  left: 25%;
-  top: 45%;
+  left: 60%;
+  top: 15%;
   animation: hover 20s linear infinite;
-  z-index: 1;
 }
 
 .img-fluid2 {
   position: absolute;
   width: 3.8%;
-  filter: blur(0.8px) drop-shadow(2px 2px 3px #9400d3)
+  filter:  drop-shadow(2px 2px 3px #9400d3)
     drop-shadow(-2px -2px 3px #9400d3);
-  left: 75%;
-  top: 35%;
+  left: 80%;
+  top: 36%;
   animation: hover 20s linear infinite;
 }
 
 .img-fluid3 {
   position: absolute;
   width: 4%;
-  filter: blur(1.5px) drop-shadow(2px 2px 3px #9400d3)
+  filter:  drop-shadow(2px 2px 3px #9400d3)
     drop-shadow(-2px -2px 3px #9400d3);
-  left: 45%;
-  top: 75%;
+  left: 42%;
+  top: 83%;
   animation: hover 20s linear infinite;
 }
 
 .img-fluid4 {
   position: absolute;
   width: 9%;
-  filter: blur(1px) drop-shadow(1px 1px 1px #239a85)
+  filter: drop-shadow(1px 1px 1px #239a85)
     drop-shadow(-1px -1px 1px #239a85);
-  left: 68%;
+  left: 65%;
   top: 68%;
   animation: hover 20s linear infinite;
 }
@@ -49,7 +48,7 @@ body {
 .img-fluid5 {
   position: absolute;
   width: 5%;
-  filter: blur(2px);
+  
   left: 35%;
   top: 10%;
   animation: hover 20s linear infinite;
@@ -58,61 +57,60 @@ body {
 .img-fluid6 {
   position: absolute;
   width: 2.9%;
-  filter: blur(1px);
-  left: 50%;
-  top: 40%;
+  
+  left: 22%;
+  top: 63%;
   animation: hover 20s linear infinite;
 }
 
 .img-fluid7 {
   position: absolute;
   width: 2.5%;
-  filter: blur(2px);
+  
   left: 5%;
-  top: 10%;
+  top: 6%;
   animation: hover 20s linear infinite;
 }
 
 .img-fluid8 {
   position: absolute;
   width: 5%;
-  filter: blur(0.5px);
+  
   left: 5%;
-  top: 70%;
+  top: 80%;
   animation: hover 15s linear infinite;
 }
 
 .img-fluid9 {
   position: absolute;
   width: 2.5%;
-  filter: blur(0.8px);
-  left: 7%;
-  top: 40%;
+  
+  left: 15%;
+  top: 28%;
   animation: hover 25s linear infinite;
 }
 
 .img-fluid10 {
   position: absolute;
   width: 3%;
-  filter: blur(1.5px);
   left: 88%;
-  top: 5;
+  top: 7%;
   animation: hover 15s linear infinite;
 }
 
 .img-fluid11 {
   position: absolute;
   width: 5%;
-  filter: blur(0.5px);
-  left: 6%;
-  top: 41%;
+  
+  left: 13%;
+  top: 31%;
   animation: hover 15s linear infinite;
 }
 
 .img-fluid12 {
   position: absolute;
   width: 10%;
-  filter: blur(0.5px) drop-shadow(4px 4px 2px #195e83)
+  filter: drop-shadow(4px 4px 2px #195e83)
     drop-shadow(-4px -4px 2px #195e83);
   left: 84%;
   top: 70%;
@@ -792,20 +790,28 @@ body {
            animation-delay: 0s;
  }
  
+/*Header*/
+
  .txt {
    
    color: #fefefe;
-   font-family: "Ubuntu";
+   font-family: pixel;
    text-transform: uppercase;
-   letter-spacing: 0.2em;
-   font-size: 1.3em;
-   line-height: 2;
-   font-weight: 300;
+   word-spacing: 0.2rem;
+   font-size: 1.2em;
+   line-height: 0px;
+   font-weight: 500px;
    text-rendering: optimizeLegibility;
    text-align: center;
+   font-style: bold;
      
 }
 
+@font-face
+{
+  font-family: pixel;
+  src: url("Ultra.otf");
+}
 
 /*caption */
 
@@ -814,18 +820,21 @@ body {
 
   html,body{
     font-family:'Roboto Mono',monospace;
-    background:#212121;
+    
     height:100%;
+    
 }
 
 .container{
+  position: relative;
   height:80%;
   width:100%;
   justify-content:center;
-  align-items: flex-start;
+  align-items: center;
   display:flex;
   flex-direction: column;
-  margin: 5%;
+  margin-top: 5%;
+  text-shadow: 2.5px 2px #14191d;
   
 }
 .text{
@@ -833,14 +842,14 @@ body {
   font-weight:100;
   font-size:48px;
   color:#fafafa;
- 
+  z-index: 1;
   
 }
 .dud{
   color:#757575;
 }
 .caption{
- 
+  z-index: 1;
   font-weight:100;
   font-size:48px;
   color:#fafafa;
@@ -993,12 +1002,12 @@ body {
   .txt {
    
     color: #fefefe;
-    font-family: "Ubuntu";
+    font-family: "pixel";
     text-transform: uppercase;
-    letter-spacing: 0.2em;
-    font-size: 0.8em;
+    letter-spacing: 0.5em;
+    font-size: 0.4em;
     line-height: 2;
-    font-weight: 300;
+    font-weight: 50;
     text-rendering: optimizeLegibility;
     text-align: center;
     
@@ -1012,4 +1021,122 @@ body {
   .caption{
     font-size: 22px;
   }
+}
+
+section{
+  margin-top: 200px;
+  margin-bottom: 200px;
+  padding: 0 100px;
+  background: url(bg.jpg);
+  position: relative; 
+  display: flex;
+  align-items: center;
+  
+}
+
+.box{
+  
+  padding: 50px;
+  background: rgba(255,255,255,.2);
+  box-shadow: 0 0 20px rgba(204, 204, 204, 0.5);
+  outline: none;
+  border-color: rgba(204, 204, 204, 0.5);
+  display: grid;
+
+}
+
+.box h2{
+  font-family: 'Ubuntu';
+  margin: 0 0 20px;
+  padding: 0;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #f7fcff;
+}
+
+.box p img{
+  float:right;
+  filter: drop-shadow(1px 5px 15px rgba(0, 0, 0, 0.5)) ;
+}
+
+.card-deck{
+  margin:50px;
+  padding-bottom: 25px;
+}
+
+
+.card{
+  
+  background: rgba(255,255,255,.2);
+  box-shadow: 0 0 20px rgba(204, 204, 204, 0.5);background: rgba(255,255,255,.2);
+  box-shadow: 0 0 20px rgba(204, 204, 204, 0.5);
+  outline: none;
+  border-color: rgba(204, 204, 204, 0.5);
+  display: grid;
+
+  border-color: rgba(204, 204, 204, 0.5);
+  display: grid;
+
+}
+.cardbox{
+  background: rgba(255,255,255,.2);
+  box-shadow: 0 0 20px rgba(204, 204, 204, 0.5);
+  outline: none;
+  border-color: rgba(204, 204, 204, 0.5);
+  justify-content: center;
+  margin: 50px;
+
+}
+
+.cardbox h2{
+  font-family: 'Ubuntu';
+  padding-top: 15px;
+  
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #f7fcff;
+}
+
+.footer{
+  background: rgba(255,255,255,.2);
+  box-shadow: 0 0 20px rgba(204, 204, 204, 0.5);
+  outline: none;
+  border-color: rgba(204, 204, 204, 0.5);
+  display: grid;
+  
+
+}
+
+.footer h2{
+  font-family: 'Ubuntu';
+  padding-top: 15px;
+  
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #f7fcff;  
+ 
+}
+
+.footer div{
+  
+}
+
+.footer img{
+  margin: 10px;
+  padding-left: 50px ;
+  float: left;
+  
+}
+
+.footer h3{
+ display: inline;
 }
