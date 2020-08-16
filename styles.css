@@ -1060,6 +1060,7 @@ section{
 .box p img{
   float:right;
   filter: drop-shadow(1px 5px 15px rgba(0, 0, 0, 0.5)) ;
+ 
 }
 
 .card-deck{
@@ -1079,6 +1080,7 @@ section{
 
   border-color: rgba(204, 204, 204, 0.5);
   display: grid;
+  
 
 }
 .cardbox{
@@ -1088,6 +1090,7 @@ section{
   border-color: rgba(204, 204, 204, 0.5);
   justify-content: center;
   margin: 50px;
+ 
 
 }
 
@@ -1109,7 +1112,7 @@ section{
   outline: none;
   border-color: rgba(204, 204, 204, 0.5);
   display: grid;
-  
+  margin-top: 300px;
 
 }
 
@@ -1130,13 +1133,8 @@ section{
   
 }
 
-.footer img{
-  margin: 10px;
-  padding-left: 50px ;
-  float: left;
-  
-}
 
-.footer h3{
- display: inline;
+.cnt{
+ 
+  
 }
