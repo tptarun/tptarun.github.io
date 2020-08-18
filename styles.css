@@ -1113,13 +1113,13 @@ section{
   border-color: rgba(204, 204, 204, 0.5);
   display: grid;
   margin-top: 300px;
+  
 
 }
 
 .footer h2{
   font-family: 'Ubuntu';
   padding-top: 15px;
-  
   text-align: center;
   font-size: 40px;
   font-weight: 100px;
@@ -1129,12 +1129,29 @@ section{
  
 }
 
-.footer div{
+
+.mt-1{
+
+  padding-left: 10px;
+}
+
+.media{
+
+  padding: 10px;
+}
+
+.media-body h5{
+ font-weight: 100px;
+}
+
+.footer a{
+  text-decoration: none;
+  color: #14191d;
   
 }
 
+.footer form{
 
-.cnt{
  
-  
+
 }
