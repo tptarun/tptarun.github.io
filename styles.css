@@ -905,7 +905,7 @@ body {
 }
 
 @media (max-width: 500px) {
-  .img-fluid1 {
+  /* .img-fluid1 {
     position: absolute;
     width: 18%;
     filter: blur(1.1px) drop-shadow(1px 1px 1px #e4d82e)
@@ -1006,7 +1006,7 @@ body {
     left: 6%;
     top: 41%;
     animation: hover 15s linear infinite;
-  }
+  } 
 
   .img-fluid12 {
     position: absolute;
@@ -1016,15 +1016,15 @@ body {
     left: 84%;
     top: 70%;
     animation: hover 15s linear infinite;
-  }
+  }*/
 
   .txt {
    
     color: #fefefe;
     font-family: "pixel";
     text-transform: uppercase;
-    letter-spacing: 0.5em;
-    font-size: 0.4em;
+    letter-spacing: 0.4em;
+    font-size: 0.8em;
     line-height: 2;
     font-weight: 50;
     text-rendering: optimizeLegibility;
