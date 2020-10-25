@@ -826,11 +826,25 @@ body {
      
 }
 
+
 @font-face
 {
   font-family: pixel;
   src: url("Ultra.otf");
 }
+
+@font-face
+{
+  font-family: handwritten;
+  src: url("Girisenna.otf");
+}
+
+@font-face
+{
+  font-family: 3d;
+  src: url("3D.ttf");
+}
+
 
 /*caption */
 
@@ -1028,7 +1042,6 @@ body {
     line-height: 2;
     font-weight: 50;
     text-rendering: optimizeLegibility;
-    text-align: center;
     
  }
 
@@ -1040,8 +1053,72 @@ body {
   .caption{
     font-size: 22px;
   }
+
+  .box img{
+    float: left;
+    position: relative;
+    overflow: hidden;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5)) drop-shadow(-5px -5px 10px rgba(0, 0, 0, 0.5));
+    shape-outside: circle();
+    
+    
+  }
+
+  .box p{
+  
+    font-family: handwritten;
+    text-align: justify;
+    font-size: 30px;
+    color: rgba(204, 204, 204, 0.5);
+    filter: drop-shadow(3px 3px 0px rgba(0, 0, 0, 0.5));
+    
+  }
+  
+
+  .mt-1{
+
+    padding-left: 10px;
+  }
+  
+  .media{
+  
+    padding: 10px;
+  }
+  
+  .media-body h5{
+   font-weight: 100px;
+  }
+  
+  .footer a{
+    text-decoration: none;
+    color: #14191d;
+    
+  }
+  
+  .footer ul {
+    display: inline;
+    
+  }
+  .list li{
+    padding: 6px;
+    padding-left: 50px;
+   
+  }
+  
+ 
+  
+
 }
 
+.box p{
+  
+  font-family: handwritten;
+  text-align: justify;
+  font-size: 30px;
+  color: rgba(204, 204, 204, 0.5);
+  filter: drop-shadow(3px 3px 0px rgba(0, 0, 0, 0.5));
+  margin: 15px;
+}
 
 
 section{
@@ -1050,9 +1127,24 @@ section{
   padding: 0 50px;
   background: url(bg.jpg);
   position: relative; 
-  display: flex;
+  display: grid;
   align-items: center;
+  width: 100%;
   
+}
+
+.box{
+  
+  padding: 0px;
+  background: rgba(255, 255, 255, 0.041);
+  box-shadow: 0 0 20px rgba(204, 204, 204, 0.5);
+  outline: none;
+  border-color: rgba(204, 204, 204, 0.5);
+  display: flexbox;
+  width: 100%;
+  position: relative;
+  
+
 }
 
 /*skills*/
@@ -1067,35 +1159,26 @@ section{
    padding-left: 10px;
  }
 
-.box{
-  
-  padding: 50px;
-  background: rgba(255, 255, 255, 0.041);
-  box-shadow: 0 0 20px rgba(204, 204, 204, 0.5);
-  outline: none;
-  border-color: rgba(204, 204, 204, 0.5);
-  display: grid;
-  width: 100%;
-  
 
-}
 
 .box h2{
-  font-family: 'Ubuntu';
+  font-family: 3d;
   margin: 0 0 20px;
-  padding: 0;
+  padding: 50px;
   text-align: center;
-  font-size: 40px;
+  font-size: 56px;
   font-weight: 100px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: #f7fcff;
+  padding-bottom: 50px;
 }
 
 .box img{
   float:right;
   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5)) drop-shadow(-5px -5px 10px rgba(0, 0, 0, 0.5));
- 
+  shape-outside: circle();
+  height: 450px;
 }
 
 .card-deck{
@@ -1130,11 +1213,11 @@ section{
 }
 
 .cardbox h2{
-  font-family: 'Ubuntu';
+  font-family: 3d;
   padding-top: 15px;
   
   text-align: center;
-  font-size: 40px;
+  font-size: 56px;
   font-weight: 100px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -1153,21 +1236,18 @@ section{
 
 
 .footer h2{
-  font-family: 'Ubuntu';
+  font-family: 3d;
   padding-top: 15px;
   text-align: center;
-  font-size: 40px;
+  font-size: 56px;
   font-weight: 100px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: #f7fcff;  
   
+  
 }
 
-.footer .c1{
-  display: flexbox;
-  flex-direction: row-reverse;
-}
 
 .mt-1{
 
@@ -1189,29 +1269,25 @@ section{
   
 }
 
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-  width: 25%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+.list {
+  display: flex;
 }
 
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
+@media (min-width: 500px)
+{
 
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-  background-color: #45a049;
-}
+  .list li{
+    padding: 2%;
+    padding-left: 13%;
+    
+   
+  }
+  
+}  
+
+
+
+
+
+
+
