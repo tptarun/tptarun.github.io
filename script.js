@@ -67,8 +67,8 @@ class TextScramble {
   'Python Developer',
   'Web Designer',
   'Video Editor',
-  '3D Artist',
-  'Game Developer',
+  '3D Artist🎨',
+  'Photographer📷',
   'Gamer🎮',
   '& A Learner🙏'];
   
